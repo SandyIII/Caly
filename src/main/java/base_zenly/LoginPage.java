@@ -20,7 +20,7 @@ public class LoginPage
 
 	public AccountPage LoginZenly()throws InterruptedException 
 	{	
-		driver.get("https://dev.calyxzenly.com/dealSearch");
+		driver.get(Dntme.testUrl);
 		username.sendKeys(Dntme.uname);
 		password.sendKeys(Dntme.pwd);
 		loginBtn.click();
